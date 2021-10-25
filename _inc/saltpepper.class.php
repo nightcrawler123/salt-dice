@@ -1,6 +1,6 @@
 <?php
 
-	class Salter extends SalterCore {
+	class Saltpepper extends SalterMatrix {
 
 		public function __construct() {
 			define( 'SALT_dice_DOMAIN', 'salt-dice' );
@@ -92,7 +92,7 @@
 		 * @param string $schedules
 		 *
 		 * @return mixed
-		 * @since 1.2.1
+		 * @since 1.0.0
 		 */
 		public function cron_time_intervals( $schedules ) {
 			$schedules['weekly']     = array(
@@ -119,11 +119,11 @@
 		/**
 		 * A warning message to be shown if the file that contains the salts isn't writable
 		 *
-		 * @since 1.2.2
+		 * @since 1.0.0
 		 */
 		public function salt_dice_warning() {
 			
-			$config_file = SalterCore::config_file_path();
+			$config_file = SalterMatrix::config_file_path();
 			if ( ! $config_file && current_user_can( 'administrator' ) ) {
 				?>
 				<div class="notice notice-error is-dismissible">

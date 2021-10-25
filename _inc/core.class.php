@@ -1,5 +1,5 @@
 <?php
-class SalterCore {
+class SalterMatrix {
 
 		public $salts_array;
 		public $new_salts;
@@ -30,7 +30,7 @@ class SalterCore {
 		/**
 		 * Find the correct wp-config.php file. It supports one-level up.
 		 * @return string|bool The path of the wp-config.php or false if it's not found
-		 * @since 1.2.2
+		 * @since 1.0.0
 		 */
 	public function config_file_path() {
 

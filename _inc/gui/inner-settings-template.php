@@ -1,5 +1,5 @@
 <?php
-	$config_file_checker = new SalterCore();
+	$config_file_checker = new SalterMatrix();
 	$is_config           = $config_file_checker->config_file_path();
 	$salts_file_name     = apply_filters( 'salt_dice_salts_file', 'wp-config' );
 	if ( ! $is_config ) {

@@ -24,7 +24,7 @@ Copyright 2021 Abhijeet Verma.
  */
 
 include_once(plugin_dir_path(__FILE__) . "_inc/loader.php");
-$salt_dice = new Salter();
+$salt_dice = new Saltpepper();
 
 function salt_dice_load_plugin_textdomain() {
     load_plugin_textdomain( 'salt-dice', FALSE, basename( dirname( __FILE__ ) ) . '/languages/' );
