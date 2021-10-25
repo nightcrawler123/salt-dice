@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-17 20:03+0200\n"
-"PO-Revision-Date: 2016-10-17 20:04+0200\n"
+"PO-Revision-Date: 2021-10-26 03:04+0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -21,59 +21,62 @@ msgstr ""
 
 #: _inc/salter.class.php:16 _inc/gui/settings-template.php:2
 msgid "Salt dice Settings"
-msgstr ""
+msgstr "नमक पासा सेटिंग्स"
 
 #: _inc/salter.class.php:16
 msgid "Salt dice"
-msgstr ""
+msgstr "नमक पासा"
 
 #: _inc/salter.class.php:20
 msgid "Salt Changing Behaviour"
-msgstr ""
+msgstr "नमक बदलने वाला व्यवहार"
 
 #: _inc/gui/inner-settings-template.php:4
 msgid ""
 "Changing WP Keys and Salts will force all logged-in users to login again."
 msgstr ""
+"WP कुंजी और साल्ट बदलने से सभी लॉग-इन उपयोगकर्ता फिर से लॉगिन करने के लिए "
+"बाध्य होंगे।"
 
 #: _inc/gui/inner-settings-template.php:5
 msgid "Scheduled Change:"
-msgstr ""
+msgstr "अनुसूचित परिवर्तन:"
 
 #: _inc/gui/inner-settings-template.php:6
 msgid "Set scheduled job for automated Salt changing:"
-msgstr ""
+msgstr "स्वचालित नमक बदलने के लिए निर्धारित कार्य निर्धारित करें:"
 
 #: _inc/gui/inner-settings-template.php:7
 msgid "Change WP Keys and Salts on"
-msgstr ""
+msgstr "WP कुंजी और साल्ट बदलें"
 
 #: _inc/gui/inner-settings-template.php:9
 msgid "Daily"
-msgstr ""
+msgstr "रोजाना"
 
 #: _inc/gui/inner-settings-template.php:10
 msgid "Weekly"
-msgstr ""
+msgstr "साप्ताहिक"
 
 #: _inc/gui/inner-settings-template.php:11
 msgid "Monthly"
-msgstr ""
+msgstr "मासिक"
 
 #: _inc/gui/inner-settings-template.php:13
 msgid "Basis."
-msgstr ""
+msgstr "आधार"
 
 #: _inc/gui/inner-settings-template.php:16
 msgid "Immediate Change:"
-msgstr ""
+msgstr "तत्काल परिवर्तन:"
 
 #: _inc/gui/inner-settings-template.php:17
 msgid ""
 "When you click the following button, WP keys and salts will change "
 "immediately."
 msgstr ""
+"जब आप निम्न बटन पर क्लिक करते हैं, तो WP कुंजियाँ और लवण तुरंत बदल जाएंगे।"
 
 #: _inc/gui/inner-settings-template.php:19
 msgid "Change Now"
-msgstr ""
+msgstr "अभी बदलें"
