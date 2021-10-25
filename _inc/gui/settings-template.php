@@ -26,7 +26,7 @@
 	</div>
 	<div style="margin-top: 20px">
 		<?php
-			$url  = 'https://www.buymeacoffee.com/nagdy';
+			$url  = 'https://www.buymeacoffee.com/abhi78';
 			$link = sprintf( wp_kses( __( 'Want to buy me a coffee? You <a href="%s">can do it from here.</a>', 'salt-dice' ),
 				array(
 					'a' => array(
