@@ -2,25 +2,25 @@
 /**
 Plugin Name: Salt Dice
 Plugin URI: https://abhijeet.dev/
-Description: A plugin that changes WordPress Authentication Unique Keys and Salts to enhance and strengthen WordPress security.
+Description: A plugin that changes WordPress Authentication Keys and Salts to enhance and makes WordPress securey.
 Version: 1.0.0
-Author: Abhijeet
+Author: Abhijeet Singh
 Author URI: https://abhijeet.dev/
 License: GPLv3 or later
 Text Domain: salt-dice
 Domain Path: /languages
-This program is free software; you can redistribute it and/or
-modify it under the terms of the GNU General Public License
-as published by the Free Software Foundation; either version 2
-of the License, or (at your option) any later version.
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License.
+
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
+
 You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
-Copyright 2021 Abhijeet Verma.
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+Copyright 2021 Abhijeet Singh.
  */
 
 include_once(plugin_dir_path(__FILE__) . "_inc/loader.php");
